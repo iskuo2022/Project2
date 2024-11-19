@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Blinker:wght@100;200;300;400;600;700;800;900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b8dea6;
+}
+canvas {
+  display: block;
+  margin: auto;
+}
+
+.banner {
+  padding: 10px;
+  letter-spacing: -2px;
+  font-size: 100%;
+  text-align: CENTER;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border: 2px solid #2f5e19;
+  border-radius: 100px;
+}
+
+.user-interface {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  gap: 0%;
+  justify-content: center;
+  padding: 0px;
+}
+
+#button-holder {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 15px;
+  font-family: "Source Code Pro", sans-serif;
+  border-width: 1px;
+  border: solid "#2f5e19";
+  border-radius: 5px;
+  padding: 8px;
+  color: #0c2102;
+  background: #4f8238;
+}
+
+button:hover {
+  background: #355A24;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2f5e19;
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4f8238;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Blinker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0c2102;
+}
+
+#artist-statement {
+  padding: 20px;
+  font-size: 100%;
+  text-align: CENTER;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border: 2px solid #2f5e19;
+  border-radius: 100px;
+}
